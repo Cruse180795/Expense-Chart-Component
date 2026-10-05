@@ -5,7 +5,7 @@
 
     --color-red-100: hsl(26, 66%, 93%);
     --color-red-300: hsl(10, 100%, 79%);
-    --color-red-400: hsl(10, 79%, 65%);
+    --color-red-500: hsl(10, 79%, 65%);
 
     --color-brown-400: hsl(28, 10%, 53%);
     --color-brown-950: hsl(25, 47%, 15%);
@@ -19,6 +19,9 @@
 
     --text-15: 0.938rem;
     --text-32: 2rem;
+
+    --radius-10: 0.625rem;
+    --radius-20: 1.25rem;
 }
 
 @font-face {
