@@ -43,9 +43,7 @@ const options: ChartOptions<"bar"> = {
   },
   onHover: (event, elements) => {
     const target = event.native?.target as HTMLElement | undefined;
-    if (target) {
-      target.style.cursor = elements.length ? "pointer" : "default";
-    }
+    target?.classList.toggle("cursor-pointer", elements.length > 0);
   },
   plugins: {
     legend: {
