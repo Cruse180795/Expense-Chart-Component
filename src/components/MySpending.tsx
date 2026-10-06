@@ -3,7 +3,7 @@ import ExpenseChart from "./ExpenseChart";
 export default function MySpending() {
   return (
     <section className="bg-white text-brown-950 px-4 py-6 rounded-10 md:px-10 md:py-8 md:rounded-20 md:max-w-119 md:mx-auto w-full">
-      <h2 className="font-bold text-2xl leading-130 mb-14 md:mb-16 md:text-32">Spending - Last 7 days</h2>
+      <h2 className="font-bold text-2xl leading-130   lg:mb-4 md:text-32">Spending - Last 7 days</h2>
 
       {/** Chart Container */}
       <ExpenseChart />
